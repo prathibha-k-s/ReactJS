@@ -1,0 +1,14 @@
+react.js
+
+
+*codepen website for online code edio
+1.install node.js
+
+2install npm(node.js package manager) by using --- 
+    npm install -g create-react-app
+
+3.to create a new project --
+   create-react-app "project-name"
+
+4. to run the project. (navigate inside the project folder)
+ npm start
