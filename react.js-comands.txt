@@ -9,6 +9,16 @@ react.js
 
 3.to create a new project --
    create-react-app "project-name"
+           or 
+  npx create-react-app "project-name"
+   
 
 4. to run the project. (navigate inside the project folder)
  npm start
+ cd
+
+node _module : it contains all the dependencies 
+public/index.html : is the html page
+src
+
+
