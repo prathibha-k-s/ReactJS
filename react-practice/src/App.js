@@ -18,6 +18,10 @@ import InlineFunction from './Components/inline'
 import './Components/appStyle.css'
 import Styles from './Components/appStyle.module.css'
 import FormElements from './Components/form'
+import LifeCycleA from './Components/LifeCycleA'
+import FragmentDemo from './Components/FragamentDemo'
+import Table from './Components/FragmentParentTable'
+import ParentComp from './Components/ParentComp' 
 
 function App() {
   return (
@@ -42,8 +46,12 @@ function App() {
      <StyleSheet primary={true}></StyleSheet>
      <InlineFunction></InlineFunction>
      <h1 className='error'>Error</h1>
-     <h1 className={Styles.success}>Success</h1>*/}
+     <h1 className={Styles.success}>Success</h1>
      <FormElements></FormElements>
+     <LifeCycleA></LifeCycleA>
+     <FragmentDemo></FragmentDemo>
+     <Table> </Table>*/}
+     <ParentComp/>
     </div>
   );
 }
