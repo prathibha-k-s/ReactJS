@@ -23,6 +23,11 @@ import FragmentDemo from './Components/FragamentDemo'
 import Table from './Components/FragmentParentTable'
 import ParentComp from './Components/ParentComp' 
 import RefDemo from './Components/RefDemo';
+import FocusParent from './Components/FocusInputParent'
+import PortalDemo from './Components/PortalDemo';
+import Hero from './Components/Hero';
+import ErrorBoundry from './Components/ErrorBoundry';
+
 
 
 function App() {
@@ -53,8 +58,19 @@ function App() {
      <LifeCycleA></LifeCycleA>
      <FragmentDemo></FragmentDemo>
      <Table> </Table>
-     <ParentComp/>*/}
+     <ParentComp/>
      <RefDemo></RefDemo>
+     <FocusParent></FocusParent>
+     <FocusParent></FocusParent>
+     <PortalDemo></PortalDemo>*/}
+     <ErrorBoundry>
+     <Hero name="Superman"></Hero>
+     </ErrorBoundry>
+     
+     <ErrorBoundry>
+     <Hero name="joker"></Hero>
+     </ErrorBoundry>
+    
     </div>
   );
 }
