@@ -8,7 +8,8 @@ class ButtonCount extends React.Component{
         const { count , increment }=this.props     //destructing
         return <div>
             <button onClick={increment}>clicked {count} time</button>
+            {this.props.name}
         </div>
     }
 }
-export default updatedComponent(ButtonCount)
+export default updatedComponent(ButtonCount,1)

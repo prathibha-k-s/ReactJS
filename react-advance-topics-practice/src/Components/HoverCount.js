@@ -11,4 +11,4 @@ class HoverCount extends React.Component{
         </div>
     }
 }
-export default updatedComponent(HoverCount)
+export default updatedComponent(HoverCount,2)

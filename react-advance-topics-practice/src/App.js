@@ -8,7 +8,7 @@ import HoverCount from './Components/HoverCount'
 function App() {
   return (
     <div className="App"> 
-     <ButtonCount></ButtonCount>
+     <ButtonCount name="Prathibha"></ButtonCount>
      <HoverCount></HoverCount>
     </div>
   );
