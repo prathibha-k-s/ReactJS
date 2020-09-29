@@ -1,5 +1,6 @@
 import { render } from '@testing-library/react'
 import React from 'react'
+import './Assigment2.css'
 
 class ListOfEmployee extends React.Component{
     employee=[
@@ -30,15 +31,34 @@ class ListOfEmployee extends React.Component{
    ]
 
    employeeList =this.employee.map((employee)=>{
-    return <div>
-       { employee.name }   {employee.job}
-      
-        </div>
+    return<tr>
+    <td>{employee.id}</td>
+    <td>{employee.name}</td>
+    <td>{employee.job}</td>
+    </tr>
+
+               
 })
+
+renderTableHeader() {
+    let header = Object.keys(this.employee[0])
+    return header.map((key, index) => {
+       return <th key={this.employeeList.id}>{key.toUpperCase()}</th>
+       console(this.header)
+      
+    
+    })
+ }
 render(){
+   
     return (
         <div>
-         {this.employeeList}
+         <table id="employee">
+          <tbody id="employee">
+          <tr>{this.renderTableHeader()}</tr>
+           {this.employeeList}
+          </tbody>
+      </table>
         </div>
     )
 }

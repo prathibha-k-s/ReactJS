@@ -26,7 +26,7 @@ class User extends React.Component{
             return location.pathname.startsWith('/user') ? 'Are you sure' : true
         }}> </Prompt> */}
             <h1> Hello user {match.params.username}</h1>
-            <button onClick={this.clickHandler} >Log in </button>
+            <button onClick={this.clickHandler}> Log in </button>
             
             </div>
             )

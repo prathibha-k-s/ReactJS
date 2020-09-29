@@ -20,6 +20,9 @@ react.js
 5. to install the router package for particulr project:
 npm install "react-router-dom --save"
 
+6.to install  json-server
+npm install -g json-server
+
 this will ad the package and update the json
 
 node _module : it contains all the dependencies 
